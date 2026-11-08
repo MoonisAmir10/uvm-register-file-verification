@@ -1,0 +1,20 @@
+# Source file list for Register File UVM verification
+# Compilation order preserved for packages and dependencies
+
+../tb/include/shared_pkg.sv
+../tb/agents/RegisterFile_seq_item.sv
+../tb/ral/RegisterFile_adapter.sv
+../tb/ral/Registers.sv
+../tb/ral/RegisterFile_block.sv
+../tb/agents/RegisterFile_sequencer.sv
+../tb/agents/RegisterFile_driver.sv
+../tb/agents/RegisterFile_monitor.sv
+../tb/agents/RegisterFile_config.sv
+../tb/agents/RegisterFile_agent.sv
+../tb/sequences/RegisterFile_write_sequence.sv
+../tb/env/RegisterFile_if.sv
+../tb/env/RegisterFile_env.sv
+../tb/sequences/RegisterFile_reg_seq.sv
+../tb/env/RegisterFile_test.sv
+../rtl/RegisterFile.sv
+../tb/top/RegisterFile_top.sv

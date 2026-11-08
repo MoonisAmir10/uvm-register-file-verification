@@ -1,0 +1,17 @@
+# EDA Simulator Artifacts
+work/
+transcript
+*.wlf
+*.vstf
+*.qdb
+*.qtl
+*.qpg
+*.ucdb
+certe_dump.xml
+.vcop
+href.log
+
+# Editor / OS files
+.DS_Store
+*~
+*.swp

@@ -1,0 +1,236 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /RegisterFile_monitor_pkg
+=== Design Unit: work.RegisterFile_monitor_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         27        27         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /RegisterFile_monitor_pkg/RegisterFile_monitor/RegisterFile_CG 
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    27         27          -                      
+    missing/total bins:                                     0         27          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_addr                                100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rxtx0_access                                   17          1          -    Covered              
+        bin rxtx1_access                                   17          1          -    Covered              
+        bin rxtx2_access                                   17          1          -    Covered              
+        bin rxtx3_access                                   17          1          -    Covered              
+        bin ctrl_access                                    17          1          -    Covered              
+        bin div_access                                     17          1          -    Covered              
+        bin ss_access                                      20          1          -    Covered              
+    Coverpoint cp_reg_write                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin read_op                                        72          1          -    Covered              
+        bin write_op                                       50          1          -    Covered              
+    Coverpoint cp_ss_char_len                         100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin len_0_7                                         1          1          -    Covered              
+        bin len_8_15                                        1          1          -    Covered              
+        bin len_max                                         1          1          -    Covered              
+    Coverpoint cp_valid_state                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin op_valid                                      122          1          -    Covered              
+    Cross cross_addr_rw                               100.00%        100          -    Covered              
+        covered/total bins:                                14         14          -                      
+        missing/total bins:                                 0         14          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ss_access,write_op>                        8          1          -    Covered              
+            bin <div_access,write_op>                       7          1          -    Covered              
+            bin <ctrl_access,write_op>                      7          1          -    Covered              
+            bin <rxtx3_access,write_op>                     7          1          -    Covered              
+            bin <rxtx2_access,write_op>                     7          1          -    Covered              
+            bin <rxtx1_access,write_op>                     7          1          -    Covered              
+            bin <rxtx0_access,write_op>                     7          1          -    Covered              
+            bin <ss_access,read_op>                        12          1          -    Covered              
+            bin <div_access,read_op>                       10          1          -    Covered              
+            bin <ctrl_access,read_op>                      10          1          -    Covered              
+            bin <rxtx3_access,read_op>                     10          1          -    Covered              
+            bin <rxtx2_access,read_op>                     10          1          -    Covered              
+            bin <rxtx1_access,read_op>                     10          1          -    Covered              
+            bin <rxtx0_access,read_op>                     10          1          -    Covered              
+ Covergroup instance MonitorCoverageInstance          100.00%        100          -    Covered              
+    covered/total bins:                                    27         27          -                      
+    missing/total bins:                                     0         27          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_addr                                100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rxtx0_access                                   17          1          -    Covered              
+        bin rxtx1_access                                   17          1          -    Covered              
+        bin rxtx2_access                                   17          1          -    Covered              
+        bin rxtx3_access                                   17          1          -    Covered              
+        bin ctrl_access                                    17          1          -    Covered              
+        bin div_access                                     17          1          -    Covered              
+        bin ss_access                                      20          1          -    Covered              
+    Coverpoint cp_reg_write                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin read_op                                        72          1          -    Covered              
+        bin write_op                                       50          1          -    Covered              
+    Coverpoint cp_ss_char_len                         100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin len_0_7                                         1          1          -    Covered              
+        bin len_8_15                                        1          1          -    Covered              
+        bin len_max                                         1          1          -    Covered              
+    Coverpoint cp_valid_state                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin op_valid                                      122          1          -    Covered              
+    Cross cross_addr_rw                               100.00%        100          -    Covered              
+        covered/total bins:                                14         14          -                      
+        missing/total bins:                                 0         14          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ss_access,write_op>                        8          1          -    Covered              
+            bin <div_access,write_op>                       7          1          -    Covered              
+            bin <ctrl_access,write_op>                      7          1          -    Covered              
+            bin <rxtx3_access,write_op>                     7          1          -    Covered              
+            bin <rxtx2_access,write_op>                     7          1          -    Covered              
+            bin <rxtx1_access,write_op>                     7          1          -    Covered              
+            bin <rxtx0_access,write_op>                     7          1          -    Covered              
+            bin <ss_access,read_op>                        12          1          -    Covered              
+            bin <div_access,read_op>                       10          1          -    Covered              
+            bin <ctrl_access,read_op>                      10          1          -    Covered              
+            bin <rxtx3_access,read_op>                     10          1          -    Covered              
+            bin <rxtx2_access,read_op>                     10          1          -    Covered              
+            bin <rxtx1_access,read_op>                     10          1          -    Covered              
+            bin <rxtx0_access,read_op>                     10          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /RegisterFile_monitor_pkg/RegisterFile_monitor/RegisterFile_CG 
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    27         27          -                      
+    missing/total bins:                                     0         27          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_addr                                100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rxtx0_access                                   17          1          -    Covered              
+        bin rxtx1_access                                   17          1          -    Covered              
+        bin rxtx2_access                                   17          1          -    Covered              
+        bin rxtx3_access                                   17          1          -    Covered              
+        bin ctrl_access                                    17          1          -    Covered              
+        bin div_access                                     17          1          -    Covered              
+        bin ss_access                                      20          1          -    Covered              
+    Coverpoint cp_reg_write                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin read_op                                        72          1          -    Covered              
+        bin write_op                                       50          1          -    Covered              
+    Coverpoint cp_ss_char_len                         100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin len_0_7                                         1          1          -    Covered              
+        bin len_8_15                                        1          1          -    Covered              
+        bin len_max                                         1          1          -    Covered              
+    Coverpoint cp_valid_state                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin op_valid                                      122          1          -    Covered              
+    Cross cross_addr_rw                               100.00%        100          -    Covered              
+        covered/total bins:                                14         14          -                      
+        missing/total bins:                                 0         14          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ss_access,write_op>                        8          1          -    Covered              
+            bin <div_access,write_op>                       7          1          -    Covered              
+            bin <ctrl_access,write_op>                      7          1          -    Covered              
+            bin <rxtx3_access,write_op>                     7          1          -    Covered              
+            bin <rxtx2_access,write_op>                     7          1          -    Covered              
+            bin <rxtx1_access,write_op>                     7          1          -    Covered              
+            bin <rxtx0_access,write_op>                     7          1          -    Covered              
+            bin <ss_access,read_op>                        12          1          -    Covered              
+            bin <div_access,read_op>                       10          1          -    Covered              
+            bin <ctrl_access,read_op>                      10          1          -    Covered              
+            bin <rxtx3_access,read_op>                     10          1          -    Covered              
+            bin <rxtx2_access,read_op>                     10          1          -    Covered              
+            bin <rxtx1_access,read_op>                     10          1          -    Covered              
+            bin <rxtx0_access,read_op>                     10          1          -    Covered              
+ Covergroup instance MonitorCoverageInstance          100.00%        100          -    Covered              
+    covered/total bins:                                    27         27          -                      
+    missing/total bins:                                     0         27          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_addr                                100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rxtx0_access                                   17          1          -    Covered              
+        bin rxtx1_access                                   17          1          -    Covered              
+        bin rxtx2_access                                   17          1          -    Covered              
+        bin rxtx3_access                                   17          1          -    Covered              
+        bin ctrl_access                                    17          1          -    Covered              
+        bin div_access                                     17          1          -    Covered              
+        bin ss_access                                      20          1          -    Covered              
+    Coverpoint cp_reg_write                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin read_op                                        72          1          -    Covered              
+        bin write_op                                       50          1          -    Covered              
+    Coverpoint cp_ss_char_len                         100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin len_0_7                                         1          1          -    Covered              
+        bin len_8_15                                        1          1          -    Covered              
+        bin len_max                                         1          1          -    Covered              
+    Coverpoint cp_valid_state                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin op_valid                                      122          1          -    Covered              
+    Cross cross_addr_rw                               100.00%        100          -    Covered              
+        covered/total bins:                                14         14          -                      
+        missing/total bins:                                 0         14          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ss_access,write_op>                        8          1          -    Covered              
+            bin <div_access,write_op>                       7          1          -    Covered              
+            bin <ctrl_access,write_op>                      7          1          -    Covered              
+            bin <rxtx3_access,write_op>                     7          1          -    Covered              
+            bin <rxtx2_access,write_op>                     7          1          -    Covered              
+            bin <rxtx1_access,write_op>                     7          1          -    Covered              
+            bin <rxtx0_access,write_op>                     7          1          -    Covered              
+            bin <ss_access,read_op>                        12          1          -    Covered              
+            bin <div_access,read_op>                       10          1          -    Covered              
+            bin <ctrl_access,read_op>                      10          1          -    Covered              
+            bin <rxtx3_access,read_op>                     10          1          -    Covered              
+            bin <rxtx2_access,read_op>                     10          1          -    Covered              
+            bin <rxtx1_access,read_op>                     10          1          -    Covered              
+            bin <rxtx0_access,read_op>                     10          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+
